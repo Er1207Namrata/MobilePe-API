@@ -1,0 +1,23 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MobileAPI_V2/.config
+/MobileAPI_V2/bin
+/MobileAPI_V2/obj
+/.vs/MobileApiApp/v17/.suo
+/MobileAPI_V2/bin/Release/net5.0/MobileAPI_V2.pdb
+/MobileAPI_V2/bin/Release/net5.0/MobileAPI_V2.dll
+/MobileAPI_V2/bin/Debug/net5.0/MobileAPI_V2.pdb
+/MobileAPI_V2/bin/Debug/net5.0/MobileAPI_V2.dll
+/MobileAPI_V2/Properties/PublishProfiles/FolderProfile.pubxml.user
+/MobileAPI_V2/obj/Debug/net5.0/MobileAPI_V2.pdb
+/MobileAPI_V2/obj/Debug/net5.0/MobileAPI_V2.dll
+/MobileAPI_V2/MobileAPI_V2.csproj.user
+.vs/MobileApiApp/v17/.suo
+.vs/MobileApiApp/v17/fileList.bin
+MobileAPI_V2/bin/Release/net5.0/MobileAPI_V2.pdb
+MobileAPI_V2/bin/Release/net5.0/MobileAPI_V2.dll
+MobileAPI_V2/bin/Release/net5.0/MobileAPI_V2.pdb
+.vs/MobileApiApp/v17/.suo

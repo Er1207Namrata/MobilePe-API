@@ -1,0 +1,365 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Rupee Card Invoice</title>
+	</head>
+	<body>
+		<table style="font-size:12px;font-family: 'Poppins', sans-serif;" width="100%" cellspacing=0 cellpadding="0">
+			<tr>
+				<td>
+					<table style="font-size:14px; font-weight:bold" width="100%" cellspacing=0 cellpadding="0">
+						<tr>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px 5px;">GSTIN : 07AANCM4396D1Z6</td>
+							<td style="border-width:1px 1px 0px 0px; border-style:solid; border-color:#000;text-align:right;padding:2px 5px;">Original Copy</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table width="100%" cellspacing=0 cellpadding="0">
+						<tr>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;text-align:center; font-size:18px; font-weight:bold;padding:5px 5px">TAX INVOICE</td>						
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table style="font-size:14px; vertical-align: middle; font-weight:bold" width="100%" cellspacing=0 cellpadding="0">
+						<tr>
+							<td style="width: 120px;border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:10px 5px;">
+								<img style="vertical-align: middle;width: 120px;" src="/EmailTemplates/logo.png">
+							</td>
+							<td style="border-width:0px 1px 0px 0px; border-style:solid; border-color:#000;text-align:center;padding:10px 120px 10px 5px; font-size:24px">MobilePe E-Commerce Pvt.Ltd.</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table width="100%" cellspacing=0 cellpadding="0">
+						<tr>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;text-align:center; font-size:14px;padding:5px 5px">Reg. Office : D-1/7,G-01,Ground Floor,Palam Kunj,Palam Extn,Sec-7,Dwarka,New Delhi-110075</td>						
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table width="100%" cellspacing=0 cellpadding="0">
+						<tr>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;text-align:center; font-size:14px;padding:5px 5px">Phone: 011-41034199, Email: support@mobilepe.co.in</td>						
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table width="100%" cellspacing=0 cellpadding="0">
+						<tr>
+							<td style="vertical-align:top;border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:5px 5px 15px; width:50%;">
+								<div style="font-size:14px; font-weight:bold; padding:3px 0 0;">Buyer:</div>
+								<div style="font-size:12px;padding:3px 0 0;"><span>[Name]</span></div>
+								<div style="font-size:12px;padding:3px 0 0; line-height:18px"><span>[Address]</span></div>
+								<div style="font-size:12px;padding:3px 0 0;">Contact No.: <span>+91-[Mobile]</span></div>
+								<div style="font-size:12px; display:table;padding:3px 0 0;">
+									<div style="width:50%;display:table-cell;">State: <span>[State]</span></div>
+									<div style="width:50%;display:table-cell;">State Code: <span>[StateCode]</span></div>
+								</div>
+							</td>
+							<td style="vertical-align:top;border-width:1px 1px 0px 1px; border-style:solid; border-color:#000;padding:5px 5px 15px; width:50%;">
+								<div style="font-size:12px;padding:3px 0 0;">Invoice No.: <span>[Invoiceno]</span></div>
+								<div style="font-size:12px;padding:3px 0 0;">Date of Invoice: <span>[Date]</div>
+								<div style="font-size:12px;padding:3px 0 0;">Place of Supply: <span>[State]</span></div>
+								<div style="font-size:12px;padding:3px 0 0;">State Code: <span>[StateCode]</span></div>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table width="100%" cellspacing=0 cellpadding="0">
+						<tr>
+							<td rowspan="2" style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; font-weight:bold;">S.No.</td>
+							<td rowspan="2" style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; font-weight:bold;">Description of Goods</td>
+							<td rowspan="2" style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; font-weight:bold;">HSN/SAC Code</td>
+							<td rowspan="2" style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; font-weight:bold;">Qty.</td>
+							<td rowspan="2" style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; font-weight:bold; text-align:right;">Unite Price</td>
+							<td rowspan="2" style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; font-weight:bold; text-align:right;">Amount</td>
+							<td colspan="2" style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; font-weight:bold; text-align:center;">CGST</td>
+							<td colspan="2" style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; font-weight:bold; text-align:center;">SGST</td>
+							<td colspan="2" style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; font-weight:bold; text-align:center;">IGST</td>
+							<td rowspan="2" style="border-width:1px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; font-weight:bold; text-align:right;">Total</td>
+						</tr>
+						<tr>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">Rate</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">Amount</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">Rate</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">Amount</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">Rate</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">Amount</td>
+						</tr>
+						<tr>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;">1</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;">
+								<div style="padding:0 0 3px 0;text-align:center">Physical/Virtual Card</div>
+								<div style="text-align:center;">(Including Courier charges )</div>
+							</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;">998314</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;">1</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">508.5</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">508.5</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">[CGSTRATE]</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">[CGSTAMOUNT]</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">[SGSTRATE]</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">[SGSTAMOUNT]</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">[IGSTRATE]</td>
+							<td style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">[IGSTAMOUNT]</td>
+							<td style="border-width:1px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">600.03</td>
+						</tr>
+						<tr>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+						</tr>
+						<tr>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+						</tr>
+						<tr>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+						</tr>
+						<tr>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+						</tr>
+						<tr>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">
+								Less: -Round of
+							</td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;"></td>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;">-0.03</td>
+						</tr>
+						<tr>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+						</tr>
+						<tr>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+						</tr>
+						<tr>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+						</tr>
+						<tr>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+						</tr>
+						<tr>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+						</tr>
+						<tr>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+						</tr>
+						<tr>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+						</tr>
+						<tr>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 0px 0px 1px; border-style:solid; border-color:#000;padding:2px;height:18px;"></td>
+							<td style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;padding:2px; text-align:right;height:18px;"></td>
+						</tr>
+						<tr>
+							<td colspan="2" style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:10px 2px;">Total Invoice Amount in words: </td>
+							<td colspan="8" style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:10px 2px;font-weight:bold;">INR Six Hundred Only</td>
+							<td colspan="2" style="border-width:1px 0px 0px 1px; border-style:solid; border-color:#000;padding:10px 2px;font-weight:bold;">Grand Total</td>
+							<td style="border-width:1px 1px 0px 1px; border-style:solid; border-color:#000;padding:10px 2px;text-align:right;font-weight:bold;">600</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table style="font-size:14px; font-weight:bold" width="100%" cellspacing=0 cellpadding="0">
+						<tr>
+							<td colspan="2" style="border-width:1px 1px 0px 1px; border-style:solid; border-color:#000;padding:5px 5px 5px;">Term & Conditions</td>
+						</tr>
+						<tr>
+							<td colspan="2" style="border-width:0px 1px 0px 1px; border-style:solid; border-color:#000;padding:5px 5px 5px;font-weight:bold">E.& O.E.</td>
+						</tr>
+						<tr>
+							<td style="width:60%;border-width:0px 0px 1px 1px; border-style:solid; border-color:#000;padding:2px 5px;vertical-align: text-bottom;">
+								<ol style="padding-left:20px;">
+									<li style="padding-bottom:10px;">Card Once dispatch/Used will not be taken Back.</li>
+									<li>Subject to Delhi Jurisdiction only.</li>
+								</ol>
+							</td>
+							<td style="vertical-align:top; width:40%;border-width:0px 1px 1px 0px; border-style:solid; border-color:#000;text-align:center;padding:2px 5px;">
+								<div style="padding:10px 0 10px;font-weight:bold; font-size:14px;">For MobilePe E-Commerce Pvt.Ltd.</div>
+								<div style="height:50px;"></div>
+								<div style="font-weight:bold;padding:5px 0 10px">Authorised Signatory</div>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table width="100%" cellspacing=0 cellpadding="0">
+						<tr>
+							<td style="text-align:center; padding:5px 5px">This is a Computer Generated Invoice</td>						
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
